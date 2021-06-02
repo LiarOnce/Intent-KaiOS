@@ -1,0 +1,25 @@
+{
+    "name": "Intent",
+    "description": "快捷操作",
+    "version": "0.1.3",
+    "origin": "app://intent.kaios.lcsunm.cc",
+    "launch_path": "/index.html",
+    "icons": {
+        "128": "/icons/icon128x128.png"
+    },
+    "developer": {
+        "name": "Lcsunm",
+        "url": "http://kaios.lcsunm.cc"
+    },
+    "fullscreen": false,
+    "type": "certified",
+    "chrome": {
+        "statusbar": "overlap"
+    },
+    "permissions": {
+        "wifi-manage": {},
+        "settings": { "access": "readwrite" },
+        "themeable": {},
+        "webapps-manage": {}
+    }
+}
